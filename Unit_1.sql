@@ -101,7 +101,7 @@ select column1, column2 from table_name where condition order by column1 etc;
 --Entity Set: collection of similar entities (all employees)
 --Relationship Set: collection of similar relationships (all works_for relationships)
 
---All the Keys:(Primary, Candidate, Alternate, Foreign, Composite, Surrogate, Super and Secondary keys)
+--All the KEYS:(Primary, Candidate, Alternate, Foreign, Composite, Surrogate, Super and Secondary keys)
 --Primary Key: unique identifier for a table (e.g., employee_id)
 --Candidate Key: potential primary keys (e.g., email, ssn)
 --Alternate Key: candidate keys not chosen as primary (e.g., email if employee_id is primary)

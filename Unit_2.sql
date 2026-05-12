@@ -136,7 +136,7 @@ select column_name from table_name as alias_name;
 select column_name as alias_name from table_name as alias_name;
 
 --Examples of contraints (primary key, foreign key, unique, not null, check, default)
---Data integrity constraints are used to ensure the accuracy and consistency of data in a database. 
+--Data integrity constraints are used to ensure the accuracy and consistency of data in a database. (cascade, set null, set default, restrict, no action)
 --They are rules that are applied to the columns of a table to restrict the type of data that can be inserted into the table. Here are some examples of constraints:
 --Primary Key Constraint: This constraint is used to uniquely identify each record in a table. It ensures that the values in the primary key column are unique and not null.
 create table employees (
